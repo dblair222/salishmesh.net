@@ -28,6 +28,14 @@ they will be able to click the tag and join the channel.
 - `#testing`: if you want to test you new setup or play with bots
 - `#emergency`: reserved for emergency notification. Shared across PNW
 
+Common commands with bots:
+- `help` or `CMD` : Responds with available commands
+- `T`: Test. (Ack the first hop including SNR, RSSI, time)
+- `P`: Path (replies with message path)
+- `Prefex __`: Replies the name of repeater(s) matching the prefix with __
+- many more!
+- Please test in dedicated channels not  `#Public`
+
 ## How to add them
 
 If you see a hashtag in chat using the official app you can click it to join the
@@ -36,6 +44,7 @@ channel.
 Otherwise you can join or even create your own:
 
 - Official App: click the three dot menu, top right, and click `add channel`
- then `join a hashtag channel`.
+ then `join a hashtag channel`. A QR code and secret key will appear, click `continue to channel`.
+
 - Meshcore Open: Navigate to the channels page, click the plus button, then
  `join a hashtag channel`.
